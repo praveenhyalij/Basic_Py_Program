@@ -1,0 +1,25 @@
+#find Operator
+print("")
+print("------------------------------")
+fin_var = ("Regular")
+print(fin_var.find("a"))
+print("")
+print("------------------------------")
+
+lng_var = ("Pune is very populated city. Pune city have many play grounds and very big trees.")
+print(lng_var.find("c"))
+str_prnt = (lng_var.find("c"))
+print (lng_var[str_prnt:])
+print("------------------------------")
+
+print("")
+print("Output of absent word `kp` from above string")
+print(lng_var.find("kp")+5)
+
+print("------------------------------")
+print("")
+cmp_word=(lng_var.find("very"))
+print(cmp_word)
+nxt_word=(lng_var.find("very",cmp_word+1))
+print(nxt_word)
+print(lng_var[nxt_word:])
